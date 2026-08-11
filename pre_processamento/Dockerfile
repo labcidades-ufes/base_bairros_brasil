@@ -14,7 +14,6 @@ WORKDIR /app
 
 # 4. Copia os arquivos necessários
 # Atenção: O build deve ser rodado da RAIZ do projeto
-COPY dags/utils/utils.R .
 COPY dags/base_bairros_brasil/pre_processamento/pre_processamento_bairros.R .
 
 # 5. Execução
